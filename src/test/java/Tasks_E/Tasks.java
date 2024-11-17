@@ -239,7 +239,7 @@ import java.sql.ResultSet;
             try {
                 String query = """
                 SELECT e.employee_id, e.first_name, e.last_name, e.gender, e.hire_date,
-                       d.department_name, 
+                       d.department_name, ""
                        CASE WHEN dm.employee_id IS NOT NULL THEN 'Manager' ELSE 'Employee' END AS role
                 FROM employees e
                 LEFT JOIN dept_emp de ON e.employee_id = de.employee_id
