@@ -4,7 +4,7 @@ import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 
-public class _20_SQL extends JDBCParent{
+public class _20_SQL extends JDBCPare{
     public static void main(String[] args) throws SQLException {
         DBConnectionOpen();
 
