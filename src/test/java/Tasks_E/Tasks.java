@@ -29,7 +29,9 @@ import java.sql.ResultSet;
             } finally {
                 DBConnectionClose();
             }
+
         }
+
 
         public static void findMaleEmployeeCount() {
             try {
